@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Filtering and Sorting</title>
+</head>
+<body>
+
+<h1>Product Filtering and Sorting</h1>
+
+<div>
+    <button onclick="filterByCategory('all')">All Categories</button>
+    <button onclick="filterByCategory('electronics')">Electronics</button>
+    <button onclick="filterByCategory('clothing')">Clothing</button>
+</div>
+<div>
+    <button onclick="sortByPrice('ascending')">Price Ascending</button>
+    <button onclick="sortByPrice('descending')">Price Descending</button>
+</div>
+
+<div id="product-list"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
