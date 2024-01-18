@@ -80,3 +80,6 @@ function renderProducts(productsToRender) {
         productList.appendChild(productElement)
     });
 }
+
+
+alert()
